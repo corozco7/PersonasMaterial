@@ -54,4 +54,9 @@ public class Persona {
     public void setSexo(int sexo) {
         this.sexo = sexo;
     }
+
+    public void guardar(){
+        Datos.agregar(this);
+    }
+
 }

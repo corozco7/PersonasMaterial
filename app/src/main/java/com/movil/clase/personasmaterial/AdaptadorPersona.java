@@ -17,7 +17,7 @@ public class AdaptadorPersona extends RecyclerView.Adapter<AdaptadorPersona.Pers
     public AdaptadorPersona(ArrayList<Persona> personas){
         this.personas = personas;
     }
-    
+
     @Override
     public PersonaViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_persona,
